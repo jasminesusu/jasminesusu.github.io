@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>中原大學快樂通識手冊</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<!-- 自己寫的CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+  </head>
+
+  <body>
+  	<!-- 標頭 -->
+    <header>
+    	<div class="container-fluid BgColor">
+			<a  class="nav-link text-center text-white" href="index.html"><h2>中原大學快樂通識手冊</h2></a>
+		</div>		
+    </header>
+    <!-- 選單 -->
+	  <div class="container-fluid navBgColor">
+		<ul class="nav nav-fill">
+		  <li class="nav-item">
+		    <a class="nav-link active text-white" href="video.html"><h4>介紹影片</h4></a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false"><h4>通識活動</h4></a>
+		    <div class="dropdown-menu">
+		      <a class="dropdown-item" href="show.html">表演時間表</a>
+		      <a class="dropdown-item" href="music.html">音樂會時間表</a>
+		      <a class="dropdown-item" href="lecture.html">講座時間表</a>
+		      <a class="dropdown-item" href="movie.html">電影時間表</a>
+		    </div>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" href="map.html"><h4>位置資訊</h4></a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" href="aboutme.html"><h4>關於我們</h4></a>
+		  </li>
+		</ul>
+	  </div>
+	 
+    <!-- 圖片輪播 -->
+    <section>
+		<div class="container">
+		 <br>
+		    <div class="row">
+		    	<div class="col-sm-1"></div>
+				<div class="col-sm-10">
+		    		<div id="downbottom" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#downbottom" data-slide-to="0" class="active"></li>
+							<li data-target="#downbottom" data-slide-to="1"></li>
+							<li data-target="#downbottom" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+						    <div class="carousel-item active">
+						    	<img src="img/001.JPG" class="img-thumbnail d-block w-100">
+						    </div>
+						    <div class="carousel-item">
+						    	<img src="img/002.JPG" class="img-thumbnail d-block w-100" >
+						    </div>
+						    <div class="carousel-item">
+						    	<img src="img/003.JPG" class="img-thumbnail d-block w-100">
+						    </div>
+						</div>
+					</div>
+		    	</div>
+		    	<div class="col-sm-1"></div>
+		    </div>
+		</div>
+    </section>
+    <!-- 通識活動連結 -->
+	<section>
+		<div class="container">
+		<br>
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<!-- 音樂會 -->
+			    <div class="col-sm-4 pic">
+			    	<a href="music.html" name="activity">
+				    	<img src="img/music.png" class="hw"
+				    	onmouseover="this.src='img/artSalon.jpg'" 
+				    	onmouseout="this.src='img/music.png'">
+			    	</a>
+			    </div>
+			    <div class="col-sm-2" align="center">
+			    	
+			    </div>
+			    <!-- 表演 -->
+			    <div class="col-sm-4 pic">
+			    	<a href="show.html">
+				    	<img src="img/show.png" class="hw"
+				    	onmouseover="this.src='img/concertHall.jpg'" 
+				    	onmouseout="this.src='img/show.png'">
+			    	</a>
+			    </div>
+			    <div class="col-sm-1"></div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<!-- 講座 -->
+			    <div class="col-sm-4 pic">
+			    	<a href="lecture.html">
+				    	<img src="img/lecture.png" class="hw"
+				    	onmouseover="this.src='img/hsiuTeHall.jpg'" 
+				    	onmouseout="this.src='img/lecture.png'">
+			    	</a>
+			    </div>
+			    <div class="col-sm-2"  align="center">
+			    	
+			    </div>
+			    <!-- 電影 -->
+			    <div class="col-sm-4 pic">
+			    	<a href="movie.html">
+				    	<img src="img/movie.png" class="hw"
+				    	onmouseover="this.src='img/teachplace.jpg'" 
+				    	onmouseout="this.src='img/movie.png'">
+			    	</a>
+			    </div>
+			    <div class="col-sm-1"></div>
+			</div>
+			<br>
+		</div>
+		
+	</section>
+	<!-- 頁尾 -->
+	<footer>
+		<div class="container-fluid BgColor">
+			<h4 align="center" class="pt-2 pb-3">@第二組DEMO</h4>
+		</div>
+	</footer>
+
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

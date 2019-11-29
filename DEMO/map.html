@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>位置資訊</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<!-- 自己寫的CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<style>
+		.container{
+			background-color: #e2d9d9
+		}
+		body{
+			align-content: center;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+  	<!-- 標頭 -->
+    <header>
+    	<div class="container-fluid BgColor">
+			<a  class="nav-link text-center text-white" href="index.html"><h2>中原大學快樂通識手冊</h2></a>
+		</div>		
+    </header>
+    <!-- 選單 -->
+	  <div class="container-fluid navBgColor">
+		<ul class="nav nav-fill">
+		  <li class="nav-item">
+		    <a class="nav-link active text-white" href="video.html"><h4>介紹影片</h4></a>
+		  </li>
+		  <li class="nav-item dropdown">
+		    <a class="nav-link text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><h4>通識活動</h4></a>
+		    <div class="dropdown-menu">
+		      <a class="dropdown-item" href="show.html">表演時間表</a>
+		      <a class="dropdown-item" href="music.html">音樂會時間表</a>
+		      <a class="dropdown-item" href="lecture.html">講座時間表</a>
+		      <a class="dropdown-item" href="movie.html">電影時間表</a>
+		    </div>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" href="map.html"><h4>位置資訊</h4></a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" href="aboutme.html"><h4>關於我們</h4></a>
+		  </li>
+		</ul>
+	  </div>
+
+	<!-- 內容 -->
+	<section>
+		<div class="container">
+		<br>
+			<h1>通識活動地點</h1>
+			<img src="img/schoolmap.jpg" alt="通識活動地點" usemap="#schoolmap">
+			<map name="schoolmap">
+				<area  shape="poly" href="introduce.html#concertHall" alt="活動中心音樂廳" target="_blank" coords="123,338,248,278,290,363,229,388,213,368,153,379">
+				<area  shape="poly" href="introduce.html#hsiuTeHall" alt="圖書館秀德廳" target="_blank" coords="107,393,213,375,262,463,142,513">
+				<area  shape="poly" href="introduce.html#ruiLiTang" alt="全人村瑞麗堂" target="_blank" coords="285,219,430,191,497,298,358,368,288,309">
+				<area  shape="poly" href="introduce.html#artSalon" alt="教學大樓風雅頌" target="_blank" coords="427,484,531,470,590,561,585,646,507,649,426,594">
+			</map>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+		<br><br>
+			<h1>更多資訊</h1>
+			<h3>
+			<a href="https://cge.cycu.edu.tw/index.php/welcome/active
+			" style="color:black; font-weight:bold;font-size: 36px;">通識中心</a>
+			<br>
+			<a href="https://www1.cycu.edu.tw/
+			" style="color:black; font-weight:bold;font-size: 36px;">中原大學</a>
+			<br>
+			<a href="https://itouch.cycu.edu.tw/active_project/cycu2100h_06/acpm3/#!/activityList/welcome
+			" style="color:black; font-weight:bold;font-size: 36px;">活動報名</a>
+			<br>
+			<a href="https://ann.cycu.edu.tw/aa/
+			" style="color:black; font-weight:bold;font-size: 36px;">活動預告</a>
+			</h3>
+		<br><br>
+		</div>
+	</section>
+
+
+	<!-- 頁尾 -->
+	<footer>
+		<div class="container-fluid BgColor">
+			<h4 align="center" class="pt-2 pb-3">@第二組DEMO</h4>
+		</div>
+	</footer>
+	<!-- Optional JavaScript -->
+    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
