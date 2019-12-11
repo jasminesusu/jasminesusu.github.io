@@ -1,0 +1,298 @@
+html {
+  height: 100%; }
+
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+.mee{
+		width:275px;
+		height:275px;
+		transition:all 1s ease ;
+}
+.mee:hover{
+	transform:scale(1.2);	
+}
+.me{
+	margin: 50px 100px 0px 100px;
+	padding: 50px;
+	background-color:#D0E3CC; 
+	border-radius: 30px;
+}
+
+.me1{
+	font-size: 20px;
+	font-family: 微軟正黑體;
+	font-style: block;
+	border-radius: 30px;
+	font-weight:bolder;
+}
+.me2{
+	font-size: 30px;
+	font-family: 微軟正黑體;
+	color: #D0E3CC;
+	border-radius: 30px;
+}
+.me2:hover{
+	font-size: 30px;
+	font-family: 微軟正黑體;
+	color: block;
+	border-radius: 30px;
+	background-color:#E1AA7D;
+}
+.c1{
+	padding: 5px;
+	background: #E1AA7D;
+	margin: 5px 300px 5px 300px;
+}
+.c1:hover
+{ 
+	background-color:#b7bbbb;
+	transform:scale(1.1);	
+}
+.skill{
+	padding: 30px;
+	margin: 20px 600px;
+	background-color:#d0d7d5; 
+	border-radius: 30px;
+}
+.p2{
+	height:60px; 
+	font-family: 微軟正黑體;
+	padding: 5px;
+	background-color:#D0E3CC; 
+	border-radius: 30px;
+	text-align:center;
+	font-weight:bolder;
+	margin:15px;
+}
+
+.m3:hover{
+	overflow:hidden;
+	transform: scale(1.1);
+	transition:all 0.5s ease 0s;
+}
+/*進度條*/
+/*文書*/
+ #progress{
+            width: 70%;
+            height: 30px;
+            border:1px solid #ccc;
+            border-radius: 15px;
+            margin: 20px 50px 20px 50px;
+            overflow: hidden;
+            box-shadow: 0 0 5px 0px #ddd inset;
+        }
+        #progress span {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background: #FDCA40; /* Old browsers */
+            background: -moz-linear-gradient(45deg, #FDCA40 33%, #f7f7cc 34%, #f7f7cc 59%, #FDCA40 60%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left bottom, right top, color-stop(33%,#FDCA40), color-stop(34%,#7db9e8), color-stop(59%,#7db9e8), color-stop(60%,#2989d8)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(45deg, #FDCA40 33%,#f7f7cc 34%,#f7f7cc 59%,#FDCA40 60%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(45deg, #FDCA40 33%,#f7f7cc 34%,#f7f7cc 59%,#FDCA40 60%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(45deg, #FDCA40 33%,#f7f7cc 34%,#f7f7cc 59%,#FDCA40 60%); /* IE10+ */
+            background: linear-gradient(45deg, #FDCA40 33%,#f7f7cc 34%,#f7f7cc 59%,#FDCA40 60%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', endColorstr='#2989d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            background-size: 60px 30px;
+            text-align: center;
+            color:block;
+            font-family: 微軟正黑體;
+            font-weight:bolder;
+            -webkit-animation:load 3s ease-in;
+        }
+        @-webkit-keyframes load{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width:100%;
+            }
+        }
+
+/*網頁前端*/
+.p5{
+	color:block;
+}
+#progress2{
+            width: 70%;
+            height: 30px;
+            border:1px solid #ccc;
+            border-radius: 15px;
+            margin: 20px 50px 20px 50px;
+            overflow: hidden;
+            box-shadow: 0 0 5px 0px #ddd inset;
+        }
+        #progress2 span {
+            display: inline-block;
+            width: 80%;
+            height: 100%;
+            background: #CFD186; /* Old browsers */
+            background: -moz-linear-gradient(45deg, #CFD186 33%, #f7f7cc 34%, #f7f7cc 59%, #CFD186 60%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left bottom, right top, color-stop(33%,#CFD186), color-stop(34%,#f7f7cc), color-stop(59%,#7db9e8), color-stop(60%,#2989d8)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(45deg, #CFD186 33%,#f7f7cc 34%,#f7f7cc 59%,#CFD186 60%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(45deg, #CFD186 33%,#f7f7cc 34%,#f7f7cc 59%,#CFD186 60%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(45deg, #CFD186 33%,#f7f7cc 34%,#f7f7cc 59%,#CFD186 60%); /* IE10+ */
+            background: linear-gradient(45deg, #CFD186 33%,#f7f7cc 34%,#f7f7cc 59%,#CFD186 60%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', endColorstr='#2989d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            background-size: 60px 30px;
+            text-align: center;
+            color:block;
+            font-family: 微軟正黑體;
+            font-weight:bolder;
+            -webkit-animation:load 3s ease-in;
+        }
+        @-webkit-keyframes load{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width:80%;
+            }
+        }
+
+/*程設*/
+#progress3{
+            width: 70%;
+            height: 30px;
+            border:1px solid #ccc;
+            border-radius: 15px;
+            margin: 20px 50px 20px 50px;
+            overflow: hidden;
+            box-shadow: 0 0 5px 0px #ddd inset;
+        }
+        #progress3 span {
+            display: inline-block;
+            width: 70%;
+            height: 100%;
+            background: #ACBED8; /* Old browsers */
+            background: -moz-linear-gradient(45deg, #ACBED8 33%, #f7f7cc 34%, #f7f7cc 59%, #ACBED8 60%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left bottom, right top, color-stop(33%,#ACBED8), color-stop(34%,#f7f7cc), color-stop(59%,#7db9e8), color-stop(60%,#2989d8)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(45deg, #ACBED8 33%,#f7f7cc 34%,#f7f7cc 59%,#ACBED8 60%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(45deg, #ACBED8 33%,#f7f7cc 34%,#f7f7cc 59%,#ACBED8 60%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(45deg, #ACBED833%,#f7f7cc 34%,#f7f7cc 59%,#ACBED8 60%); /* IE10+ */
+            background: linear-gradient(45deg, #ACBED8 33%,#f7f7cc 34%,#f7f7cc 59%,#ACBED8 60%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', endColorstr='#2989d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            background-size: 60px 30px;
+            text-align: center;
+            color:block;
+            font-family: 微軟正黑體;
+            font-weight:bolder;
+            -webkit-animation:load 3s ease-in;
+        }
+        @-webkit-keyframes load{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width:70%;
+            }
+        }
+/*進度條結束*/
+/*專案*/
+.accordion {
+		font-family: 微軟正黑體;
+		border-radius: 30px;
+		background-color: #E1AA7D;
+		color: #FFFFFF;
+	  	padding: 20px 100px 20px 100px;
+	  	font-size: 20px;
+		margin: 0px 100px 0px 100px;
+}
+
+.open {	width: 100%;
+		margin:20px 50px 20px 50px;
+  		padding:0 18px;
+  		background-color: #b7bbbb;
+  		border-radius: 30px;
+  		overflow: hidden;
+  		transition: max-height 0.2s ease-out;
+  		max-height: 0;
+}
+.m{	
+	margin: 40px 500px 40px 500px;
+}
+.m1{
+		margin: 20px;
+}
+.p1{	font-size:18px;
+		color:#41416B;
+		font-weight:bolder;
+		text-align:center;
+}
+.hid{	width:600px;
+		height:400px;
+		margin:90px 30px 40px 30px;
+		overflow:hidden;
+		}
+
+.t{		text-align:center;
+		font-family: 微軟正黑體;
+		font-size:36px;
+		color:block;
+		font-weight:bolder;}
+
+
+/*專案結束*/
+/*社團*/
+	.bob-container{
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bob-row{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.bob-row:before,.bob-row:after{
+  display: table;
+  content: " ";  
+}
+
+.bob-row:after{
+  clear: both;
+}
+
+.bob-4item{
+  width:50%;
+}
+
+.bob-2item,.bob-3item,.bob-4item{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float:left;
+}
+
+.bob-2item img,.bob-3item img,.bob-4item img{
+  width:100%;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .bob-container {
+    width: 750px;
+  }
+  .bob-3item{
+    width: 33.33333333%;
+  }
+  .bob-4item{
+    width:25%;
+  }
+}
+@media (min-width: 992px) {
+  .bob-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .bob-container {
+    width: 1170px;
+  }
+}
+/*社團*/
