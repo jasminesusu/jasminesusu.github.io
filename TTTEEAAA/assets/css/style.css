@@ -1,0 +1,283 @@
+body,button, input,select, textarea,h1 ,h2, h3, h4, h5, h6 {
+ font-family: "微軟正黑體","Microsoft JhengHei";
+  }
+
+body {
+  font-family: "微軟正黑體","Microsoft JhengHei";
+  font-size: 16px;
+  line-height: 1.75;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.logosize{
+    width: 100px;
+    height: 50px;
+}
+
+.T{
+	background-color:#65b891;
+}
+.E{
+	background-color:#F5F3BB;
+  padding: 20px;
+}
+
+.thiscenter{
+  text-align: center;
+}
+
+
+/* 關於茶CSS */
+.A{
+        position: center center;
+        margin:40px 200px;
+        padding:70px;
+        border-radius:25px; 
+        background-color:#CEA07E; 
+      }
+.B{ 
+        position: center center;
+        background-color:#EDD9A3;
+        border-radius:25px; 
+       }
+.tea1{
+      padding:60px ;
+      margin:40px;
+      border-radius:25px;
+      background-color:#d3f09c;
+      }
+.tea2{
+      padding:60px ;
+      margin:40px;
+      border-radius:25px;
+      background-color:#b7bbbb;
+      }
+.tea3{
+      padding:60px ;
+      margin:40px;
+      border-radius:25px;
+      background-color:#f2cb8c;
+      }
+.form-check{background-color:#eaebea;
+            border-radius:10px;
+            padding:2px 3px ;
+            margin:5px 250px;
+            }
+/* 關於茶CSS END */
+
+/* 星星css */
+.starWrapper{
+  padding:5px;
+}
+.starWrapper img{
+  width: 30px;
+  height: 30px;
+  cursor:pointer;
+}
+/* 星星css END */
+
+/* 商品頁 商品 留言區css */
+.goodsize{
+    width: 300px;
+    height: 400px;
+}
+.good{
+    width:500px;
+    height: 700px;
+}
+.textwidth{
+    width: 90%;
+}
+.bcenter{
+  text-align: right;
+  padding: 10px;
+}
+/* 商品頁 商品 留言區css END */
+
+/* 下拉式選單CSS */
+.downbtn {
+  background-color: none; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.downbtn:hover {
+  background-color: cadetblue;
+}
+/* 下拉式選單CSS END*/
+
+/* 熱銷商品CSS */
+#timeline {
+  display: flex;
+  background-color: #B1B479;
+}
+#timeline:hover .tl-item {
+  width: 23.3333%;
+}
+
+.tl-item {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  position: relative;
+  width: 25%;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  overflow: hidden;
+  transition: width 0.5s ease;
+}
+.tl-item:before, .tl-item:after {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.tl-item:after {
+  background: rgba(208, 227, 204, 0.85);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+.tl-item:before {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 75%);
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 0, 0) translateY(50%);
+          transform: translate3d(0, 0, 0) translateY(50%);
+  transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+.tl-item:hover {
+  width: 30% !important;
+}
+.tl-item:hover:after {
+  opacity: 0;
+}
+.tl-item:hover:before {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0) translateY(0);
+          transform: translate3d(0, 0, 0) translateY(0);
+  transition: opacity 1s ease, -webkit-transform 1s ease 0.25s;
+  transition: opacity 1s ease, transform 1s ease 0.25s;
+  transition: opacity 1s ease, transform 1s ease 0.25s, -webkit-transform 1s ease 0.25s;
+}
+.tl-item:hover .tl-content {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  transition: all 0.75s ease 0.5s;
+}
+.tl-item:hover .tl-bg {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.tl-content {
+  -webkit-transform: translate3d(0, 0, 0) translateY(25px);
+          transform: translate3d(0, 0, 0) translateY(25px);
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin: 0 1.618em;
+  top: 55%;
+  opacity: 0;
+}
+.tl-content h1 {
+  font-family: "微軟正黑體","Microsoft JhengHei";
+  text-transform: uppercase;
+  color: #1779cf;
+  font-size: 1.44rem;
+  font-weight: normal;
+}
+
+.tl-year {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+}
+.tl-year p {
+  font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 1.728rem;
+  line-height: 0;
+}
+
+.tl-bg {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+  transition: -webkit-filter 0.5s ease;
+  transition: filter 0.5s ease;
+  transition: filter 0.5s ease, -webkit-filter 0.5s ease;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+/* 熱銷商品CSS END*/
+/*表單*/
+.hi2{
+	border-radius:25px;
+	background-color:#E1AA7D;
+	padding:20px 50px;
+	margin:1px 8px;
+	clear:both;
+}
+
+
+.hi{
+	border-radius:13px 13px 15px 15px;
+}
+
+/* 48px 回到頂端*/
+.toTop-arrow {
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 33%;
+  opacity: 0.6;
+  background: #000;
+  cursor: pointer;
+  position:fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  z-index: 7;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+  width: 25px;
+  height: 6px;
+  border-radius: 3px;
+  background: #86A697;
+  position: absolute;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 0.42rem;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 0.42rem;
+}
+.toTop-arrow:focus {outline: none;}
