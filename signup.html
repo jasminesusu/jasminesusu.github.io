@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign up</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Public/img/main.css">
+
+</head>
+<body background="img/bg3.jpg">
+  <!-- 回到頂端按鈕 -->
+  <button type="button" id="BackTop" class="toTop-arrow"></button>
+  <header>
+      <!--logo登入註冊-->
+      <div class="container-fluid T">
+          <div class="nav  align-items-start ">
+              <nav class="navbar mr-auto" >
+                  <a href="index.html"><img src="img/logo1.png" class="img-fluid logosize"
+                    onmouseover="this.src='img/logo2.png'" 
+                    onmouseout="this.src='img/logo1.png'"></a>
+              </nav>
+             
+              <button type="button" class="btn dropdown-toggle-split downbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-bars"></i>
+              </button>
+              <div class="dropdown-menu text-center">
+                <a class="dropdown-item" href="login.html">登入</a>
+                <a class="dropdown-item" href="signup.html">註冊</a>
+                <a class="dropdown-item" href="useredit.html">會員中心</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="cheakout.html">購物車</a>
+              </div>      
+          </div>
+      </div>
+      <!--選單-->
+      <div class="container-fluid T">
+              <ul class="nav nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="index.html#HOT"><h4>熱銷商品</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="abouttea.html"><h4>關於茶</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="allgoods.html"><h4>產品一覽</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="aboutus.html"><h4>關於我們</h4></a>
+                </li>
+                <nav class="navbar navbar-light">
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0 " type="submit">Search</button>
+                  </form>
+                </nav>
+              </ul>
+            </div>
+  </header>
+    	<div class="A">
+    	<form method="post" action=""><center><h5>成為會員</h5><br>
+    		<div class="B">
+    		<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp帳號：<input type="text" name="username" size="20" ><br>
+    		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp密碼：<input type="password" name="password" size="20" ><br>
+            確認密碼：<input type="password" name="password" size="20" ><br><br>
+    		<a href="login.html"><button type="button" class="btn btn-link ">已有會員?</button></a>
+    		<button type="submit" class="btn btn-outline-danger ">確定</button>
+    		<button type="button" class="btn btn-outline-danger ">取消</button>
+    		<br>
+    		<br>
+			</div>
+		</center>
+    	</form> 
+		</div>
+   
+    <footer>
+        <br>
+            <div class="container-fluid text-center pt-3 pb-2 T" >
+                <h4>Copyright &copy 2019 by 第十組</h4>
+                <h5>訪客人數 <span>0</span>人</h5>
+            </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <!-- 回到頂端 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="assets/js/gotop.js"></script>
+</body>
+</html>
